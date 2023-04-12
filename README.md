@@ -7,7 +7,7 @@ To get started with Octavi-OS, you'll need to get familiar with [Repo](https://s
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init -u https://github.com/Octavi-Staging/manifest.git -b thirteen
+repo init --depth=1 --no-repo-verify -u https://github.com/OctaviOS-Workout/android_manifest.git -b thirteen -g default,-mips,-darwin,-notdefault
 
 ```
 or to save bandwith and space 
@@ -19,7 +19,7 @@ repo init -u https://github.com/Octavi-Staging/manifest.git -b thirteen --depth=
 Then to sync up:
 
 ```
-repo sync -c -f --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j8
+repo sync -c --no-clone-bundle --force-remove-dirty --optimized-fetch --prune --force-sync -j8
 ```
 
 ---------------------------------------------------------------------------------------
