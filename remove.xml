@@ -78,6 +78,11 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/libfuse" />
+  <remove-project name="platform/external/protobuf" />
+  <remove-project name="platform/external/rust/crates/ring" />
+  <remove-project name="platform/external/rust/cxx" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />

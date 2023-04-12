@@ -48,6 +48,11 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="octavi" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="octavi" />
   <project path="external/zlib" name="android_external_zlib-ng" remote="octavi" />
+  <project path="external/aac" name="android_external_aac" remote="fork" />
+  <project path="external/libfuse" name="android_external_libfuse" remote="fork" />
+  <project path="external/protobuf" name="android_external_protobuf" remote="fork" />
+  <project path="external/rust/crates/ring" name="android_external_rust_crates_ring" remote="fork" />
+  <project path="external/rust/cxx" name="android_external_rust_cxx" remote="fork" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="octavi" />
