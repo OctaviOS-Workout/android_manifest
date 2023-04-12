@@ -21,6 +21,11 @@
            fetch="https://github.com/Octavi-Staging"
            revision="refs/heads/thirteen" />
 
+  <remote  name="fork"
+           fetch="https://github.com/OctaviOS-Workout"
+           revision="refs/heads/thirteen" />
+
+
   <remote  name="octavi-gitlab"
            fetch="https://gitlab.com/Octavi-Staging"
            revision="refs/heads/thirteen" />
