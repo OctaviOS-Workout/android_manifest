@@ -25,7 +25,7 @@
 
   <project path="art" name="android_art" remote="octavi" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="octavi" />
-  <project path="manifest" name="android_manifest" remote="octavi" />
+  <project path="manifest" name="android_manifest" remote="fork" />
 
   <!-- Bootable repos -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="octavi" />
