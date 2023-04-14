@@ -140,7 +140,7 @@
   <project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" remote="gitlab" revision="master" clone-depth="1" />
 
   <!-- System repos -->
-  <project path="system/core" name="android_system_core" remote="octavi" />
+  <project path="system/core" name="android_system_core" remote="fork" />
   <project path="system/libhidl" name="android_system_libhidl" remote="octavi" />
   <project path="system/vold" name="android_system_vold" remote="octavi" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="octavi" />
