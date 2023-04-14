@@ -9,6 +9,10 @@
            fetch="https://github.com/crdroidandroid"
            revision="refs/heads/13.0" /> 
 
+  <remote name="pixys-gitlab"
+          fetch="https://gitlab.com/PixysOS"
+          revision="thirteen" />
+
   <!-- Build repos -->
   <project path="build/make" name="android_build" groups="pdk" remote="octavi" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -48,6 +52,10 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="octavi" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="octavi" />
   <project path="external/zlib" name="android_external_zlib-ng" remote="octavi" />
+
+  <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="fork" />
+  <project path="external/rust/cxx" name="external_rust_cxx" remote="fork" />
+  <project path="external/aac" name="external_aac" remote="fork" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="octavi" />
@@ -120,6 +128,7 @@
 
   <!-- Prebuilt repos -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="octavi" />
+  <project path="prebuilts/rust" name="prebuilts_rust" remote="pixys-gitlab" />
 
   <!-- System repos -->
   <project path="system/core" name="android_system_core" remote="octavi" />
@@ -128,6 +137,12 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="octavi" />
   <project path="system/security" name="android_system_security" remote="octavi" />
   <project path="system/update_engine" name="android_system_update_engine" remote="octavi" />
+
+  <project path="system/apex" name="system_apex" remote="fork" />
+  <project path="system/linkerconfig" name="system_linkerconfig" remote="fork" />
+  <project path="system/logging" name="system_logging" remote="fork" />
+  <project path="system/netd" name="system_netd" remote="fork" />
+
   <!-- Tools repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="octavi" />
 
@@ -154,8 +169,5 @@
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="octavi" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="octavi" />
   <project path="vendor/support" name="android_vendor_support" remote="octavi" />
-
-  <!-- Proton Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" clone-depth="1" revision="master" remote="github" />
 
 </manifest>
