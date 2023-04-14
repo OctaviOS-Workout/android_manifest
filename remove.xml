@@ -78,6 +78,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/rust/crates/ring" />
   <remove-project name="platform/external/rust/cxx" />
   <remove-project name="platform/external/aac" />

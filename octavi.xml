@@ -13,6 +13,11 @@
           fetch="https://gitlab.com/PixysOS"
           revision="thirteen" />
 
+  <remote name="pixys"
+          fetch="https://github.com/PixysOS/"
+          revision="thirteen"
+          review="gerrit.pixysos.com" />
+
   <!-- Build repos -->
   <project path="build/make" name="android_build" groups="pdk" remote="octavi" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -53,6 +58,7 @@
   <project path="external/tinyxml" name="android_external_tinyxml" remote="octavi" />
   <project path="external/zlib" name="android_external_zlib-ng" remote="octavi" />
 
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="pixys" />
   <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="fork" />
   <project path="external/rust/cxx" name="external_rust_cxx" remote="fork" />
   <project path="external/aac" name="external_aac" remote="fork" />
