@@ -49,7 +49,7 @@
 
   <!-- External repos -->
   <project path="external/colorkt" name="android_external_colorkt" remote="octavi" />
-  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="octavi" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="pixys" />
   <project path="external/json-c" name="android_external_json-c" remote="octavi" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="octavi" />
   <project path="external/selinux" name="android_external_selinux" remote="octavi" />
