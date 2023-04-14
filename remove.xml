@@ -126,6 +126,7 @@
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/rust" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
