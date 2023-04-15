@@ -64,6 +64,7 @@
   <project path="external/aac" name="external_aac" remote="fork" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="pixys" />
   <project path="external/libpng" name="external_libpng" remote="pixys" />
+  <project path="external/libfuse" name="external_libfuse" remote="pixys" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="octavi" />
@@ -127,7 +128,7 @@
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="octavi" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="octavi" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="octavi" />
-  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="octavi" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="pixys" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="octavi" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="octavi" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="octavi" />
